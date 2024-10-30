@@ -1,0 +1,13 @@
+
+/*the "last used" icon in wp-adminbar, using wp dashicons*/
+#wpadminbar #wp-admin-bar-last-used-items .ab-icon:before{top:2px;content:"\f498";}
+
+#wp-admin-bar-last-used-items-default .ab-sub-wrapper{min-width:100%;}
+
+@media screen and (max-width: 782px){
+#wpadminbar #wp-admin-bar-last-used-items
+  {
+      display: block;
+      position: static;
+  }
+}
